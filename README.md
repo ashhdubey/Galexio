@@ -25,8 +25,9 @@ Any additional upcoming features goes here :-
 ## Team 
 
  - [Ashish Kumar Dubey ](https://github.com/)
- - [Ayush Gura](https://github.com/)
+ - [Ayush Guar](https://github.com/)
  - [Ashutosh Pandey ](https://github.com/)
+ - [Amisha Gupta ](https://github.com/amisha)
 
 ## Feedback
 
