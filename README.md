@@ -26,9 +26,9 @@ Any additional upcoming features goes here :-
 
  - [Ashish Kumar Dubey ](https://github.com/)
  - [Ayush Guar](https://github.com/)
- - [Ashutosh Pandey ](https://github.com/ashutoshpdy)
- - [Amisha Gupta ](https://github.com/amisha62)
- - [Amisha Gupta ](https://github.com/divvpatel)
+ - [Ashutosh Pandey ](https://github.com/ashutoshpdy22)
+ - [Amisha Gupta](https://github.com/amisha62)
+ - [Divyam Patel](https://github.com/divvpatel)
 
 ## Feedback
 
