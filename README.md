@@ -13,9 +13,8 @@ Galexio provide's variety of software file for (windows, Mac, Android, Linux) li
 
 ## Screenshots
 
-![App Screenshot](https://mega.nz/file/)
-![App Screenshot](https://mega.nz/file/)
-![App Screenshot](https://mega.nz/file/)
+![App Screenshot](https://ashhdubey.github.io/Galexio/image/Readme/IMG_20241129_215410.jpg)
+![App Screenshot](https://ashhdubey.github.io/Galexio/image/Readme/IMG_20241129_215431.jpg)
 
 ## Appendix
 
