@@ -1,5 +1,34 @@
-# Galexio
-A website that provides you file like : 
-1. Apps for Windows, Mac, Linux and Android
-2. Games
-3. Ebooks
+# Galaxy
+Galexio provide's variety of software file for (windows, Mac, Android, Linux) like :-
+- Application 
+- Games
+- Ebooks
+
+## Features
+
+- beautiful vibrant page
+- Live previews
+- Fullscreen mode
+- Cross platform
+
+## Screenshots
+
+![App Screenshot](https://mega.nz/file/)
+![App Screenshot](https://mega.nz/file/)
+![App Screenshot](https://mega.nz/file/)
+
+## Appendix
+
+Any additional upcoming features goes here :-
+- Mod file
+- coustom rom
+
+## Team 
+
+ - [Ashish Kumar Dubey ](https://github.com/)
+ - [Ayush Gura](https://github.com/)
+ - [Ashutosh Pandey ](https://github.com/)
+
+## Feedback
+
+If you have any feedback, please reach out to us at 
