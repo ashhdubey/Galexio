@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,243 +16,261 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
 
-    
-  <!-- Loader -->
-   
-  <div id="loader">
-    <!-- Animated App Icon -->
-    <div class="app-icon">📦</div>
-    
-    <!-- Rotating Loading Messages -->
-    <div class="loading-text">
-      <span>Loading the best apps for you...</span>
-      <span>Downloading resources...</span>
-      <span>Optimizing experience...</span>
-      <span>Almost ready!</span>
+
+    <!-- Loader -->
+
+    <div id="loader">
+        <!-- Animated App Icon -->
+        <div class="app-icon">📦</div>
+
+        <!-- Rotating Loading Messages -->
+        <div class="loading-text">
+            <span>Loading the best apps for you...</span>
+            <span>Downloading resources...</span>
+            <span>Optimizing experience...</span>
+            <span>Almost ready!</span>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-bar-container">
+            <div class="progress-bar"></div>
+        </div>
     </div>
 
-    <!-- Progress Bar -->
-    <div class="progress-bar-container">
-      <div class="progress-bar"></div>
-    </div>
-  </div>
-    
-<!-- header section starts  -->
+    <!-- header section starts  -->
 
-<header class="header">
+    <header class="header">
 
-    <div class="header-1">
+        <div class="header-1">
 
-        <a href="#" class="logo"> <i class="fas fa-book"></i> Galexio </a>
+            <a href="#" class="logo"> <i class="fas fa-book"></i> Galexio </a>
 
-        <form action="" class="search-form">
-            <input type="search" name="" placeholder="search here..." id="search-box">
-            <label for="search-box" class="fas fa-search"></label>
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="search here..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+
+        </div>
+
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="about.html">about</a>
+                <a href="windows.html">Windows</a>
+                <a href="mac.html">Mac</a>
+                <a href="linux.html">Linux</a>
+                <a href="android.html">Android</a>
+                <a href="games.html">Games</a>
+                <a href="ebook.html">Ebook</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- bottom navbar  -->
+
+    <nav class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+        <a href="#reviews" class="fas fa-comments"></a>
+        <a href="#blogs" class="fas fa-blog"></a>
+    </nav>
+
+    <!-- login form  -->
+
+    <div class="login-form-container">
+
+        <div id="close-login-btn" class="fas fa-times"></div>
+
+        <form action="">
+            <h3>sign in</h3>
+            <span>username</span>
+            <input type="email" name="" class="box" placeholder="enter your email" id="">
+            <span>password</span>
+            <input type="password" name="" class="box" placeholder="enter your password" id="">
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me"> remember me</label>
+            </div>
+            <input type="submit" value="sign in" class="btn">
+            <p>forget password ? <a href="#">click here</a></p>
+            <p>don't have an account ? <a href="#">create one</a></p>
         </form>
 
-        <div class="icons">
-            <div id="search-btn" class="fas fa-search"></div>
-            <a href="/cart.html" class="fas fa-shopping-cart"></a>
-            <div id="login-btn" class="fas fa-user"></div>
-        </div>
-
     </div>
 
-    <div class="header-2">
-        <nav class="navbar">
-            <a href="#home">home</a>
-            <a href="about.html">about</a>
-            <a href="windows.html">Windows</a>
-            <a href="mac.html">Mac</a>
-            <a href="linux.html">Linux</a>
-            <a href="android.html">Android</a>
-            <a href="games.html">Games</a>
-            <a href="ebook.html">Ebook</a>
-        </nav>
-    </div>
+    <!-- home section starts  -->
 
-</header>
+    <section class="home" id="home">
 
-<!-- header section ends -->
+        <div class="row">
 
-<!-- bottom navbar  -->
-
-<nav class="bottom-navbar">
-    <a href="#home" class="fas fa-home"></a>
-    <a href="#featured" class="fas fa-list"></a>
-    <a href="#arrivals" class="fas fa-tags"></a>
-    <a href="#reviews" class="fas fa-comments"></a>
-    <a href="#blogs" class="fas fa-blog"></a>
-</nav>
-
-<!-- login form  -->
-
-<div class="login-form-container">
-
-    <div id="close-login-btn" class="fas fa-times"></div>
-
-    <form action="">
-        <h3>sign in</h3>
-        <span>username</span>
-        <input type="email" name="" class="box" placeholder="enter your email" id="">
-        <span>password</span>
-        <input type="password" name="" class="box" placeholder="enter your password" id="">
-        <div class="checkbox">
-            <input type="checkbox" name="" id="remember-me">
-            <label for="remember-me"> remember me</label>
-        </div>
-        <input type="submit" value="sign in" class="btn">
-        <p>forget password ? <a href="#">click here</a></p>
-        <p>don't have an account ? <a href="#">create one</a></p>
-    </form>
-
-</div>
-
-<!-- home section starts  -->
-
-<section class="home" id="home">
-
-    <div class="row">
-
-        <div class="content">
-            <h3>Discover free Apps for everyone</h3>
-            <p>Access thousands of Applications, free to download and read online.</p>
-            <a href="windows.html" class="btn">View More</a>
-        </div>
-        <style>
-            .swiper-slide {
-                padding: 15px;
-                border-radius: 50%;
-            }
-        </style>
-
-        <div class="swiper books-slider">
-            <div class="swiper-wrapper">
-                <a href="windows.html" class="swiper-slide"><img src="image/1.png" alt=""></a>
-                <a href="mac.html" class="swiper-slide"><img src="image/2.png" alt=""></a>
-                <a href="android.html" class="swiper-slide"><img src="image/3.png" alt=""></a>
-                <a href="linux.html" class="swiper-slide"><img src="image/4.png" alt=""></a>
-                <a href="games.html" class="swiper-slide"><img src="image/5.png" alt=""></a>
-                <a href="ebook.html" class="swiper-slide"><img src="image/6.png" alt=""></a>
+            <div class="content">
+                <h3>Discover free Apps for everyone</h3>
+                <p>Access thousands of Applications, free to download and read online.</p>
+                <a href="windows.html" class="btn">View More</a>
             </div>
-            <img src="image/stand.png" class="stand" alt="">
-        </div>
+            <style>
+                .swiper-slide {
+                    padding: 15px;
+                    border-radius: 50%;
+                }
+            </style>
 
-    </div>
-
-</section>
-
-<!-- home section end  -->
-
-<!-- Featured Books Section -->
-<section id="featured" class="featured-products">
-    <h2>Tranding in Windows </h2>
-    <div class="book-list">
-
-        <!-- Trending Section (Windows) -->
-        <div class="product">
-            <img src="image/logo/premiere.png" alt="Product Cover" class="Product Image">
-            <div class="book-info">
-                <h3>Adobe Premiere Pro (Windows)</h3>
-                <p class="description">Railway Reasoning 5200 + TCS - MCQ Chapter-wise Coverage with detailed explanation and short tricks Hindi medium.</p>
-                <a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?cid=www_test&hl=en-us&gl=US" class="download-btn">Download</a>
+            <div class="swiper books-slider">
+                <div class="swiper-wrapper">
+                    <a href="windows.html" class="swiper-slide"><img src="image/1.png" alt=""></a>
+                    <a href="mac.html" class="swiper-slide"><img src="image/2.png" alt=""></a>
+                    <a href="android.html" class="swiper-slide"><img src="image/3.png" alt=""></a>
+                    <a href="linux.html" class="swiper-slide"><img src="image/4.png" alt=""></a>
+                    <a href="games.html" class="swiper-slide"><img src="image/5.png" alt=""></a>
+                    <a href="ebook.html" class="swiper-slide"><img src="image/6.png" alt=""></a>
+                </div>
+                <img src="image/stand.png" class="stand" alt="">
             </div>
+
         </div>
 
-        <!-- Trending Section (Windows) -->
-        <div class="product">
-            <img src="image/logo/photoshop.png" alt="Product Cover" class="Product Image">
-            <div class="book-info">
-                <h3>Adobe Photoshop (Windows)</h3>
-                <p class="description">Railway Reasoning 5200 + TCS - MCQ Chapter-wise Coverage with detailed explanation and short tricks Hindi medium.</p>
-                <a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?cid=www_test&hl=en-us&gl=US" class="download-btn">Download</a>
+    </section>
+
+    <!-- home section end  -->
+
+    <!-- Featured Books Section -->
+    <section id="featured" class="featured-products">
+        <h2>Tranding in Windows </h2>
+        <div class="book-list">
+
+            <!-- Trending Section (Windows) -->
+            <div class="product">
+                <img src="image/logo/premiere.png" alt="Product Cover" class="Product Image">
+                <div class="book-info">
+                    <h3>Adobe Premiere Pro (Windows)</h3>
+                    <p class="description">Railway Reasoning 5200 + TCS - MCQ Chapter-wise Coverage with detailed
+                        explanation and short tricks Hindi medium.</p>
+                    <a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?cid=www_test&hl=en-us&gl=US"
+                        class="download-btn">Download</a>
+                </div>
             </div>
-        </div>
 
-        <!-- Trending Section (Windows) -->
-        <div class="product">
-            <img src="image/logo/chrome.png" alt="Product Cover" class="Product Image">
-            <div class="book-info">
-                <h3> Google Chrome (Windows) </h3>
-                <p class="description">Railway Reasoning 5200 + TCS - MCQ Chapter-wise Coverage with detailed explanation and short tricks Hindi medium.</p>
-                <a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?cid=www_test&hl=en-us&gl=US" class="download-btn">Download</a>
+            <!-- Trending Section (Windows) -->
+            <div class="product">
+                <img src="image/logo/photoshop.png" alt="Product Cover" class="Product Image">
+                <div class="book-info">
+                    <h3>Adobe Photoshop (Windows)</h3>
+                    <p class="description">Railway Reasoning 5200 + TCS - MCQ Chapter-wise Coverage with detailed
+                        explanation and short tricks Hindi medium.</p>
+                    <a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?cid=www_test&hl=en-us&gl=US"
+                        class="download-btn">Download</a>
+                </div>
             </div>
-        </div>
 
-        <!-- Trending Section (Windows) -->
-        <div class="product">
-            <img src="image/logo/brave.png" alt="Product Cover" class="Product Image">
-            <div class="book-info">
-                <h3> Brave (Windows) </h3>
-                <p class="description">Railway Reasoning 5200 + TCS - MCQ Chapter-wise Coverage with detailed explanation and short tricks Hindi medium.</p>
-                <a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?cid=www_test&hl=en-us&gl=US" class="download-btn">Download</a>
+            <!-- Trending Section (Windows) -->
+            <div class="product">
+                <img src="image/logo/chrome.png" alt="Product Cover" class="Product Image">
+                <div class="book-info">
+                    <h3> Google Chrome (Windows) </h3>
+                    <p class="description">Railway Reasoning 5200 + TCS - MCQ Chapter-wise Coverage with detailed
+                        explanation and short tricks Hindi medium.</p>
+                    <a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?cid=www_test&hl=en-us&gl=US"
+                        class="download-btn">Download</a>
+                </div>
             </div>
+
+            <!-- Trending Section (Windows) -->
+            <div class="product">
+                <img src="image/logo/brave.png" alt="Product Cover" class="Product Image">
+                <div class="book-info">
+                    <h3> Brave (Windows) </h3>
+                    <p class="description">Railway Reasoning 5200 + TCS - MCQ Chapter-wise Coverage with detailed
+                        explanation and short tricks Hindi medium.</p>
+                    <a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?cid=www_test&hl=en-us&gl=US"
+                        class="download-btn">Download</a>
+                </div>
+            </div>
+
         </div>
+    </section>
 
-    </div>
-</section>
-
-<section id="featured" class="featured-products">
+    <section id="featured" class="featured-products">
         <h2>Tranding in Mac's </h2>
         <div class="book-list">
 
 
-        <!-- Trending Section (MAC) -->
-        <div class="product">
-            <img src="image/logo/sonyvega.png" alt="Product Cover" class="Product Image">
-            <div class="book-info">
-                <h3> Sony Vegas (MAC) </h3>
-                <p class="description">Railway Reasoning 5200 + TCS - MCQ Chapter-wise Coverage with detailed explanation and short tricks Hindi medium.</p>
-                <a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?cid=www_test&hl=en-us&gl=US" class="download-btn">Download</a>
+            <!-- Trending Section (MAC) -->
+            <div class="product">
+                <img src="image/logo/sonyvega.png" alt="Product Cover" class="Product Image">
+                <div class="book-info">
+                    <h3> Sony Vegas (MAC) </h3>
+                    <p class="description">Railway Reasoning 5200 + TCS - MCQ Chapter-wise Coverage with detailed
+                        explanation and short tricks Hindi medium.</p>
+                    <a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?cid=www_test&hl=en-us&gl=US"
+                        class="download-btn">Download</a>
+                </div>
             </div>
-        </div>
 
-        <!-- Trending Section (MAC) -->
-        <div class="product">
-            <img src="image/logo/finalcut.png" alt="Product Cover" class="Product Image">
-            <div class="book-info">
-                <h3> Final Cut Pro (MAC) </h3>
-                <p class="description">Railway Reasoning 5200 + TCS - MCQ Chapter-wise Coverage with detailed explanation and short tricks Hindi medium.</p>
-                <a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?cid=www_test&hl=en-us&gl=US" class="download-btn">Download</a>
+            <!-- Trending Section (MAC) -->
+            <div class="product">
+                <img src="image/logo/finalcut.png" alt="Product Cover" class="Product Image">
+                <div class="book-info">
+                    <h3> Final Cut Pro (MAC) </h3>
+                    <p class="description">Railway Reasoning 5200 + TCS - MCQ Chapter-wise Coverage with detailed
+                        explanation and short tricks Hindi medium.</p>
+                    <a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?cid=www_test&hl=en-us&gl=US"
+                        class="download-btn">Download</a>
+                </div>
             </div>
-        </div>
 
-        <!-- Trending Section (MAC) -->
-        <div class="product">
-            <img src="image/logo/chrome.png" alt="Product Cover" class="Product Image">
-            <div class="book-info">
-                <h3> Google Chrome (MAC) </h3>
-                <p class="description">Railway Reasoning 5200 + TCS - MCQ Chapter-wise Coverage with detailed explanation and short tricks Hindi medium.</p>
-                <a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?cid=www_test&hl=en-us&gl=US" class="download-btn">Download</a>
+            <!-- Trending Section (MAC) -->
+            <div class="product">
+                <img src="image/logo/chrome.png" alt="Product Cover" class="Product Image">
+                <div class="book-info">
+                    <h3> Google Chrome (MAC) </h3>
+                    <p class="description">Railway Reasoning 5200 + TCS - MCQ Chapter-wise Coverage with detailed
+                        explanation and short tricks Hindi medium.</p>
+                    <a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?cid=www_test&hl=en-us&gl=US"
+                        class="download-btn">Download</a>
+                </div>
             </div>
-        </div>
 
-        <!-- Trending Section (MAC) -->
-        <div class="product">
-            <img src="image/logo/brave.png" alt="Product Cover" class="Product Image">
-            <div class="book-info">
-                <h3> Brave (MAC) </h3>
-                <p class="description">Railway Reasoning 5200 + TCS - MCQ Chapter-wise Coverage with detailed explanation and short tricks Hindi medium.</p>
-                <a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?cid=www_test&hl=en-us&gl=US" class="download-btn">Download</a>
+            <!-- Trending Section (MAC) -->
+            <div class="product">
+                <img src="image/logo/brave.png" alt="Product Cover" class="Product Image">
+                <div class="book-info">
+                    <h3> Brave (MAC) </h3>
+                    <p class="description">Railway Reasoning 5200 + TCS - MCQ Chapter-wise Coverage with detailed
+                        explanation and short tricks Hindi medium.</p>
+                    <a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?cid=www_test&hl=en-us&gl=US"
+                        class="download-btn">Download</a>
+                </div>
             </div>
+
         </div>
+    </section>
 
-    </div>
-</section>
-
-<section id="featured" class="featured-products">
-    <h2>Tranding Games (Android) </h2>
-    <div class="book-list">
+    <section id="featured" class="featured-products">
+        <h2>Tranding Games (Android) </h2>
+        <div class="book-list">
 
             <!-- Trending Section (Games) -->
             <div class="product">
                 <img src="image/logo/games/bgmi.png" alt="Product Cover" class="Product Image">
                 <div class="book-info">
                     <h3> Battle Ground Mobile (INDIA)</h3>
-                    <p class="description">Railway Reasoning 5200 + TCS - MCQ Chapter-wise Coverage with detailed explanation and short tricks Hindi medium.</p>
-                    <a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?cid=www_test&hl=en-us&gl=US" class="download-btn">Download</a>
+                    <p class="description">Railway Reasoning 5200 + TCS - MCQ Chapter-wise Coverage with detailed
+                        explanation and short tricks Hindi medium.</p>
+                    <a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?cid=www_test&hl=en-us&gl=US"
+                        class="download-btn">Download</a>
                 </div>
             </div>
 
@@ -260,8 +279,10 @@
                 <img src="image/logo/games/coc.png" alt="Product Cover" class="Product Image">
                 <div class="book-info">
                     <h3> Clash Of Clans</h3>
-                    <p class="description">Railway Reasoning 5200 + TCS - MCQ Chapter-wise Coverage with detailed explanation and short tricks Hindi medium.</p>
-                    <a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?cid=www_test&hl=en-us&gl=US" class="download-btn">Download</a>
+                    <p class="description">Railway Reasoning 5200 + TCS - MCQ Chapter-wise Coverage with detailed
+                        explanation and short tricks Hindi medium.</p>
+                    <a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?cid=www_test&hl=en-us&gl=US"
+                        class="download-btn">Download</a>
                 </div>
             </div>
 
@@ -270,25 +291,29 @@
                 <img src="image/logo/games/cod.png" alt="Product Cover" class="Product Image">
                 <div class="book-info">
                     <h3>Call Of Duty</h3>
-                    <p class="description">Railway Reasoning 5200 + TCS - MCQ Chapter-wise Coverage with detailed explanation and short tricks Hindi medium.</p>
-                    <a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?cid=www_test&hl=en-us&gl=US" class="download-btn">Download</a>
+                    <p class="description">Railway Reasoning 5200 + TCS - MCQ Chapter-wise Coverage with detailed
+                        explanation and short tricks Hindi medium.</p>
+                    <a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?cid=www_test&hl=en-us&gl=US"
+                        class="download-btn">Download</a>
                 </div>
             </div>
 
         </div>
     </section>
 
-<section id="featured" class="featured-products">
-    <h2>Tranding EBooks </h2>
-    <div class="book-list">
+    <section id="featured" class="featured-products">
+        <h2>Tranding EBooks </h2>
+        <div class="book-list">
 
             <!-- Trending Section (Ebooks) -->
             <div class="product">
                 <img src="image/logo/ebook/rich dad poor dad.png" alt="Product Cover" class="Product Image">
                 <div class="book-info">
                     <h3> Rich Dad Poor Dad</h3>
-                    <p class="description">Railway Reasoning 5200 + TCS - MCQ Chapter-wise Coverage with detailed explanation and short tricks Hindi medium.</p>
-                    <a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?cid=www_test&hl=en-us&gl=US" class="download-btn">Download</a>
+                    <p class="description">Railway Reasoning 5200 + TCS - MCQ Chapter-wise Coverage with detailed
+                        explanation and short tricks Hindi medium.</p>
+                    <a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?cid=www_test&hl=en-us&gl=US"
+                        class="download-btn">Download</a>
                 </div>
             </div>
 
@@ -297,8 +322,10 @@
                 <img src="image/logo/ebook/psychology of money.png" alt="Product Cover" class="Product Image">
                 <div class="book-info">
                     <h3> Psychology of Money</h3>
-                    <p class="description">Railway Reasoning 5200 + TCS - MCQ Chapter-wise Coverage with detailed explanation and short tricks Hindi medium.</p>
-                    <a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?cid=www_test&hl=en-us&gl=US" class="download-btn">Download</a>
+                    <p class="description">Railway Reasoning 5200 + TCS - MCQ Chapter-wise Coverage with detailed
+                        explanation and short tricks Hindi medium.</p>
+                    <a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?cid=www_test&hl=en-us&gl=US"
+                        class="download-btn">Download</a>
                 </div>
             </div>
 
@@ -307,48 +334,46 @@
                 <img src="image/logo/ebook/atomic habits.png" alt="Product Cover" class="Product Image">
                 <div class="book-info">
                     <h3>Atomic Habits</h3>
-                    <p class="description">Railway Reasoning 5200 + TCS - MCQ Chapter-wise Coverage with detailed explanation and short tricks Hindi medium.</p>
-                    <a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?cid=www_test&hl=en-us&gl=US" class="download-btn">Download</a>
+                    <p class="description">Railway Reasoning 5200 + TCS - MCQ Chapter-wise Coverage with detailed
+                        explanation and short tricks Hindi medium.</p>
+                    <a href="https://apps.microsoft.com/detail/9nksqgp7f2nh?cid=www_test&hl=en-us&gl=US"
+                        class="download-btn">Download</a>
                 </div>
             </div>
-        
-    </div>
-</section>
+
+        </div>
+    </section>
 
 
 
-<!-- footer start  -->
+    <!-- footer start  -->
 
-<footer class="footer">
-    <div class="footer-container">
-      <div class="footer-section">
-        <h4>About Us</h4>
-        <p>We are dedicated to providing the best and safe apps.</p>
-      </div>
-      <div class="footer-section">
-        <h4>Quick Links</h4>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-        </ul>
-      </div>
-      <div class="footer-section">
-        <h4>Contact Us</h4>
-        <p>Email: contact@example.com</p>
-        <p>Phone: +123 456 7890</p>
-        <p>Address: 1234 Street, City, Country</p>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>&copy; 2024 Your Website. All Rights Reserved.</p>
-    </div>
-  </footer>
-  
-
-
-
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>We are dedicated to providing the best and safe apps.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Email: contact@example.com</p>
+                <p>Phone: +123 456 7890</p>
+                <p>Address: 1234 Street, City, Country</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Your Website. All Rights Reserved.</p>
+        </div>
+    </footer>
 
 
 
@@ -366,10 +391,15 @@
 
 
 
-<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>
