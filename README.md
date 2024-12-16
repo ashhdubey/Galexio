@@ -14,7 +14,7 @@ Galexio provide's variety of software file for (windows, Mac, Android, Linux) li
 ## Screenshots
 
 ![App Screenshot]
-![App Screenshot]
+![App Screenshot]  Not Showing 
 
 ## Appendix
 
