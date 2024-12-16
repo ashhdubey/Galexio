@@ -13,7 +13,7 @@ Galexio provide's variety of software file for (windows, Mac, Android, Linux) li
 
 ## Screenshots
 
-![App Screenshot]  Not showing   DELETED
+![App Screenshot]  Not showing   DELETED   ()
 ![App Screenshot]  Not Showing   DELETED
 
 
