@@ -14,7 +14,8 @@ Galexio provide's variety of software file for (windows, Mac, Android, Linux) li
 ## Screenshots
 
 ![App Screenshot]  Not showing   DELETED   (UPDATING THIS IN 5 BUSINESS DAYS)
-![App Screenshot]  Not Showing   DELETED   (UPDATING THIS IN 5 Business days)
+![App Screenshot]  Not Showing   DELETED   (UPDATING THIS IN 5 BUSINESS DAYS)
+
 
 
 ## Appendix
