@@ -35,4 +35,5 @@ Any additional upcoming features goes here :-
 
 ## Feedback
 
-If you have any feedback, please reach out to us at 
+If you have any feedback, please reach out to us at (Our About section
+)
