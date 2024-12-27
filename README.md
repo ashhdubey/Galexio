@@ -1,4 +1,4 @@
-# Galaxy
+# Galaxio
 Galexio provide's variety of software file for (windows, Mac, Android, Linux) like :-
 - Application 
 - Games
