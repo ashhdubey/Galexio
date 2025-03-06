@@ -24,6 +24,7 @@ Galexio provide's variety of software file for (windows, Mac, Android, Linux) li
 Any additional upcoming features goes here :-
 - Mod file
 - coustom rom
+- Operating Systems
 
 ## Team 
 
